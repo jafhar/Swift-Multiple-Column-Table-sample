@@ -20,7 +20,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
         navigationItem.title = "MultiColumn Table"
         createValueForDictionary()
-//        stateTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
     override func didReceiveMemoryWarning() {
