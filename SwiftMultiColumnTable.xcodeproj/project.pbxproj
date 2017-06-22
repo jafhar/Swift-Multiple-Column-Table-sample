@@ -56,15 +56,47 @@
 		242EB59B1DAD411900FCA51A /* SwiftMultiColumnTable */ = {
 			isa = PBXGroup;
 			children = (
-				242EB59C1DAD411900FCA51A /* AppDelegate.swift */,
-				242EB59E1DAD411900FCA51A /* ViewController.swift */,
-				242EB5A01DAD411900FCA51A /* Main.storyboard */,
-				242EB5A31DAD411900FCA51A /* Assets.xcassets */,
-				242EB5A51DAD411900FCA51A /* LaunchScreen.storyboard */,
-				242EB5A81DAD411900FCA51A /* Info.plist */,
-				242EB5AE1DAD5DED00FCA51A /* CapitalModel.swift */,
+				2E8AF54F1EFBF1D100A8F658 /* Model */,
+				2E8AF54D1EFBF15100A8F658 /* Views */,
+				2E8AF54E1EFBF1B800A8F658 /* Controller */,
+				2E8AF5501EFBF1E100A8F658 /* Supporting Files */,
 			);
 			path = SwiftMultiColumnTable;
+			sourceTree = "<group>";
+		};
+		2E8AF54D1EFBF15100A8F658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				242EB5A01DAD411900FCA51A /* Main.storyboard */,
+				242EB5A51DAD411900FCA51A /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2E8AF54E1EFBF1B800A8F658 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				242EB59C1DAD411900FCA51A /* AppDelegate.swift */,
+				242EB59E1DAD411900FCA51A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2E8AF54F1EFBF1D100A8F658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				242EB5AE1DAD5DED00FCA51A /* CapitalModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2E8AF5501EFBF1E100A8F658 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242EB5A81DAD411900FCA51A /* Info.plist */,
+				242EB5A31DAD411900FCA51A /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Bharatraj Rai";
 				TargetAttributes = {
 					242EB5981DAD411900FCA51A = {
@@ -185,6 +217,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -234,6 +267,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -301,6 +335,7 @@
 				242EB5AD1DAD411900FCA51A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
